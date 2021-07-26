@@ -1,1 +1,1 @@
-from streetview_scraping_tools import StreetViewAPI
+__version__=0.1
