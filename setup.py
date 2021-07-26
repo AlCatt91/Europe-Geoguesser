@@ -1,10 +1,8 @@
-from setuptools import setup
+import setuptools
 
-setup(
-        name="geotools",
-        version="0.0.1",
+setuptools.setup(
+        name="Europe-Geoguesser",
         author="Alberto Cattaneo",
-        packages=["geo-tools", "streetview-scraping"],
-        package_dir={"geo-tools":"geo-tools", "streetview-scraping":"streetview-scraping"},
         url="https://github.com/AlCatt91/Europe-Geoguesser/",
+        packages=setuptools.find_packages()
 )
